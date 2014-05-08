@@ -56,7 +56,7 @@
     <project path="vendor/sony"                   name="SlimKatXperia/android_vendor_sony"                  remote="github"     revision="master" />
     <project path="hardware/ste-sony"             name="SlimKatXperia/android_hardware_ste-sony"            remote="github"     revision="master" />
   
-    <!-- arm eabi 4.4.3 toolchain -->
+    <!-- arm eabi 4.4.3 and 4.7 toolchain -->
     <project path="prebuilt/linux-x86/toolchain" name="LegacySlimXperia/arm-eabi-4.4.3" remote="github" revision="master" />
     <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
     
