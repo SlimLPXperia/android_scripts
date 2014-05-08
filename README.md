@@ -5,8 +5,8 @@ Helpful scripts for building SlimKat
 
 QuickStart:
 
-    git clone https://github.com/SlimkatXperia/android_scripts.git aosx;
-    cd aosx;
+    git clone https://github.com/SlimkatXperia/android_scripts.git slimkat;
+    cd slimkat;
     repo init -u git://github.com/SlimRoms/platform_manifest.git -b kk4.4;
     ./Update.sh;
     ./CompileROM.sh -u; (Xperia U)
