@@ -21,10 +21,10 @@ if [[ $# = 1 ]]; then
       lunch full_nypon-userdebug && make otapackage -j12;
     ;;
     -s)
-      lunch full_pepper-eng && make otapackage -j12;
+      lunch full_pepper-eng && make otapackage -j2;
     ;;
     -rs)
-      lunch full_pepper-userdebug && make otapackage -j12;
+      lunch full_pepper-userdebug && make otapackage -j2;
     ;;
     -g)
       lunch full_lotus-eng && make otapackage -j12;
