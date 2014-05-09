@@ -16,7 +16,6 @@
     <remove-project name="SlimRoms/frameworks_av" />
     <remove-project name="SlimRoms/frameworks_native" />
     <remove-project name="SlimRoms/android_system_core" />
-    <remove-project name="SlimRoms/packages_apps_Bluetooth" />
     <remove-project name="SlimRoms/android_build" />
     
     <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
@@ -44,7 +43,6 @@
     <project path="bionic"                      name="SlimKatXperia/android_bionic"                      remote="github"     revision="master" />
     <project path="hardware/libhardware"        name="SlimKatXperia/hardware_libhardware"                remote="github"     revision="master" />
     <project path="hardware/libhardware_legacy" name="SlimKatXperia/hardware_libhardware_legacy"         remote="github"     revision="master" />
-    <project path="packages/apps/Bluetooth"     name="SlimKatXperia/packages_apps_Bluetooth"             remote="github"     revision="master" />
     <project path="system/core"                 name="SlimKatXperia/android_system_core"                 remote="github"     revision="master" />
     <project path="frameworks/av"               name="SlimKatXperia/frameworks_av"                       remote="github"     revision="master" />
     <project path="frameworks/base"             name="SlimKatXperia/frameworks_base"                     remote="github"     revision="master" />
