@@ -10,32 +10,32 @@
     <remove-project name="SlimRoms/android_external_bluetooth_bluedroid"/>  
     <remove-project name="SlimRoms/bootable_recovery"             groups="pdk" />
     <remove-project name="SlimRoms/android_bionic" />
-	<remove-project name="SlimRoms/hardware_libhardware" />
+    <remove-project name="SlimRoms/hardware_libhardware" />
     <remove-project name="SlimRoms/hardware_libhardware_legacy" />
-	<remove-project name="SlimRoms/frameworks_base" />
+    <remove-project name="SlimRoms/frameworks_base" />
     <remove-project name="SlimRoms/frameworks_av" />
     <remove-project name="SlimRoms/frameworks_native" />
     <remove-project name="SlimRoms/android_system_core" />
     <remove-project name="SlimRoms/packages_apps_Bluetooth" />
     <remove-project name="SlimRoms/android_build" />
     
-	<remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
-	<remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
-	<remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
-	<remove-project name="platform/prebuilts/clang/darwin-x86/host/3.3" />
-	<remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
-	<remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
-	<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" />
-	<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
-	<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" />
-	<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
-	<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" />
-	<remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
-	<remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
-	<remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
-	<remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" />
-	<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
-	<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.3" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
   
   
     <project path="external/bluetooth/bluez"    name="SlimKatXperia/android_external_bluetooth_bluez"    remote="github"     revision="master"/>
@@ -50,8 +50,9 @@
     <project path="frameworks/base"             name="SlimKatXperia/frameworks_base"                     remote="github"     revision="master" />
     <project path="frameworks/native"           name="SlimKatXperia/frameworks_native"                   remote="github"     revision="master" />
     <project path="bootable/recovery"           name="SlimKatXperia/bootable_recovery"                   remote="github"     revision="master" />
-    <project path="build"                       name="SlimKatXperia/android_build"                       remote="github"     revision="master" />
-     
+    <project path="build"                       name="SlimKatXperia/android_build"                       remote="github"     revision="master"  >
+        <copyfile src="core/root.mk" dest="Makefile" />
+    </project>     
     <project path="device/sony/montblanc-common"  name="SlimKatXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
     <project path="device/sony/pepper"            name="SlimKatXperia/android_device_sony_pepper"           remote="github"     revision="master" />
     <project path="device/sony/kumquat"           name="SlimKatXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
