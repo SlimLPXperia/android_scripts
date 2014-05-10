@@ -17,6 +17,7 @@
     <remove-project name="SlimRoms/frameworks_native" />
     <remove-project name="SlimRoms/android_system_core" />
     <remove-project name="SlimRoms/android_build" />
+    <remove-project name="SlimRoms/android_system_netd" />
     
     <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
     <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
@@ -50,7 +51,9 @@
     <project path="bootable/recovery"           name="SlimKatXperia/bootable_recovery"                   remote="github"     revision="master" />
     <project path="build"                       name="SlimKatXperia/android_build"                       remote="github"     revision="master"  >
         <copyfile src="core/root.mk" dest="Makefile" />
-    </project>     
+    </project> 
+    <project path="system/netd"                 name="SlimKatXperia/android_system_netd"                 remote="github"     revision="master" />
+    
     <project path="device/sony/montblanc-common"  name="SlimKatXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
     <project path="device/sony/pepper"            name="SlimKatXperia/android_device_sony_pepper"           remote="github"     revision="master" />
     <project path="device/sony/kumquat"           name="SlimKatXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
