@@ -68,4 +68,7 @@
     <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
     <!-- CM wpa_supplicant_ti -->
     <project path="external/wpa_supplicant_8_ti"	name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
+    <!-- CM crda -->
+    <project path="external/crda"                 name="CyanogenMod/android_external_crda"                remote="github" revision="cm-11.0" />
+  
 </manifest>
