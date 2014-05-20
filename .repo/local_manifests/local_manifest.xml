@@ -18,6 +18,8 @@
     <remove-project name="SlimRoms/android_system_core" />
     <remove-project name="SlimRoms/android_build" />
     <remove-project name="SlimRoms/android_system_netd" />
+    <remove-project name="SlimRoms/android_art" />
+    <remove-project name="SlimRoms/frameworks_rs" />
     
     <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
     <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
@@ -36,8 +38,14 @@
     <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
-  
-  
+    
+    <project path="prebuilt/linux-x86/toolchain/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master" />
+    <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master"/>
+    <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" revision="master"/>
+    <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" revision="master"/>
+    <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux"  revision="master"/>
+ 
+    <project path="art"                         name="SlimKatXperia/android_art"                         remote="github"     revision="GCC_4.8" />   
     <project path="external/bluetooth/bluez"    name="SlimKatXperia/android_external_bluetooth_bluez"    remote="github"     revision="master"/>
     <project path="external/bluetooth/sbc"      name="bluetooth/sbc"                                     remote="kernel"     revision="master" groups="pdk" />
     <project path="external/bluetooth/glib"     name="aosp-bluez.glib"                                   remote="googlecode" revision="master" groups="pdk" />
@@ -48,6 +56,7 @@
     <project path="frameworks/av"               name="SlimKatXperia/frameworks_av"                       remote="github"     revision="master" />
     <project path="frameworks/base"             name="SlimKatXperia/frameworks_base"                     remote="github"     revision="master" />
     <project path="frameworks/native"           name="SlimKatXperia/frameworks_native"                   remote="github"     revision="master" />
+    <project path="frameworks/rs"               name="SlimKatXperia/frameworks_rs"                       remote="github"     revision="master" />
     <project path="bootable/recovery"           name="SlimKatXperia/bootable_recovery"                   remote="github"     revision="master" />
     <project path="build"                       name="SlimKatXperia/android_build"                       remote="github"     revision="master"  >
         <copyfile src="core/root.mk" dest="Makefile" />
