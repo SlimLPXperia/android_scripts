@@ -63,7 +63,7 @@
     </project> 
     <project path="system/netd"                 name="SlimKatXperia/android_system_netd"                 remote="github"     revision="master" />
     
-    <project path="device/sony/montblanc-common"  name="SlimKatXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
+    <project path="device/sony/montblanc-common"  name="SlimKatXperia/android_device_sony_montblanc-common" remote="github"     revision="GCC_4.8" />
     <project path="device/sony/pepper"            name="SlimKatXperia/android_device_sony_pepper"           remote="github"     revision="master" />
     <project path="device/sony/kumquat"           name="SlimKatXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
     <project path="device/sony/nypon"             name="SlimKatXperia/android_device_sony_nypon"              remote="github"     revision="master" />
