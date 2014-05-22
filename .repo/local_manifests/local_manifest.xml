@@ -46,7 +46,7 @@
     <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" revision="master"/>
     <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux"  revision="master"/>
  
-    <project path="art"                         name="SlimKatXperia/android_art"                         remote="github"     revision="GCC_4.8" />   
+    <project path="art"                         name="SlimKatXperia/android_art"                         remote="github"     revision="master" />   
     <project path="external/bluetooth/bluez"    name="SlimKatXperia/android_external_bluetooth_bluez"    remote="github"     revision="master"/>
     <project path="external/bluetooth/sbc"      name="bluetooth/sbc"                                     remote="kernel"     revision="master" groups="pdk" />
     <project path="external/bluetooth/glib"     name="aosp-bluez.glib"                                   remote="googlecode" revision="master" groups="pdk" />
@@ -57,19 +57,19 @@
     <project path="frameworks/av"               name="SlimKatXperia/frameworks_av"                       remote="github"     revision="master" />
     <project path="frameworks/base"             name="SlimKatXperia/frameworks_base"                     remote="github"     revision="master" />
     <project path="frameworks/native"           name="SlimKatXperia/frameworks_native"                   remote="github"     revision="master" />
-    <project path="frameworks/rs"               name="SlimKatXperia/frameworks_rs"                       remote="github"     revision="GCC_4.8" />
+    <project path="frameworks/rs"               name="SlimKatXperia/frameworks_rs"                       remote="github"     revision="master" />
     <project path="bootable/recovery"           name="SlimKatXperia/bootable_recovery"                   remote="github"     revision="master" />
-    <project path="build"                       name="SlimKatXperia/android_build"                       remote="github"     revision="GCC_4.8"  >
+    <project path="build"                       name="SlimKatXperia/android_build"                       remote="github"     revision="master"  >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project> 
     <project path="system/netd"                 name="SlimKatXperia/android_system_netd"                 remote="github"     revision="master" />
-    <project path="external/valgrind"           name="SlimKatXperia/android_external_valgrind"           remote="github"     revision="GCC_4.8" />
+    <project path="external/valgrind"           name="SlimKatXperia/android_external_valgrind"           remote="github"     revision="master" />
     
-    <project path="device/sony/montblanc-common"  name="SlimKatXperia/android_device_sony_montblanc-common" remote="github"     revision="GCC_4.8" />
+    <project path="device/sony/montblanc-common"  name="SlimKatXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
     <project path="device/sony/pepper"            name="SlimKatXperia/android_device_sony_pepper"           remote="github"     revision="master" />
     <project path="device/sony/kumquat"           name="SlimKatXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
-    <project path="device/sony/nypon"             name="SlimKatXperia/android_device_sony_nypon"              remote="github"     revision="master" />
-    <project path="device/sony/lotus"             name="SlimKatXperia/android_device_sony_lotus"              remote="github"     revision="master" />
+    <project path="device/sony/nypon"             name="SlimKatXperia/android_device_sony_nypon"            remote="github"     revision="master" />
+    <project path="device/sony/lotus"             name="SlimKatXperia/android_device_sony_lotus"            remote="github"     revision="master" />
     <project path="kernel/sony/u8500"             name="SlimKatXperia/android_kernel_sony_u8500"            remote="github"     revision="master" />
     <project path="vendor/sony"                   name="SlimKatXperia/android_vendor_sony"                  remote="github"     revision="master" />
     <project path="hardware/ste-sony"             name="SlimKatXperia/android_hardware_ste-sony"            remote="github"     revision="master" />
