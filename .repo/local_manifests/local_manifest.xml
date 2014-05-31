@@ -19,7 +19,6 @@
     <remove-project name="SlimRoms/android_build" />
     <remove-project name="SlimRoms/android_system_netd" />
     <remove-project name="SlimRoms/android_art" />
-    <remove-project name="SlimRoms/frameworks_rs" />
     <remove-project name="platform/external/valgrind"            groups="pdk" />
     
     <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
@@ -57,7 +56,6 @@
     <project path="frameworks/av"               name="SlimKatXperia/frameworks_av"                       remote="github"     revision="master" />
     <project path="frameworks/base"             name="SlimKatXperia/frameworks_base"                     remote="github"     revision="master" />
     <project path="frameworks/native"           name="SlimKatXperia/frameworks_native"                   remote="github"     revision="master" />
-    <project path="frameworks/rs"               name="SlimKatXperia/frameworks_rs"                       remote="github"     revision="master" />
     <project path="bootable/recovery"           name="SlimKatXperia/bootable_recovery"                   remote="github"     revision="master" />
     <project path="build"                       name="SlimKatXperia/android_build"                       remote="github"     revision="master"  >
         <copyfile src="core/root.mk" dest="Makefile" />
