@@ -15,7 +15,7 @@ if [[ $# = 1 ]]; then
       breakfast nypon && make bootimage;
     ;;
     -s)
-      breakfast pepper && make bootimag;
+      breakfast pepper && make bootimage;
     ;;
     -g)
       breakfast lotus && make bootimage;
