@@ -7,77 +7,53 @@
   <remote name="googlecode"
           fetch="https://code.google.com/p/" />
   
-    <remove-project name="SlimRoms/android_external_bluetooth_bluedroid"/>  
-    <remove-project name="SlimRoms/bootable_recovery"             groups="pdk" />
-    <remove-project name="SlimRoms/android_bionic" />
+    <remove-project name="platform/external/bluetooth/bluedroid"/> 
     <remove-project name="SlimRoms/hardware_libhardware" />
-    <remove-project name="SlimRoms/hardware_libhardware_legacy" />
-    <remove-project name="SlimRoms/frameworks_base" />
-    <remove-project name="SlimRoms/frameworks_av" />
-    <remove-project name="SlimRoms/frameworks_native" />
     <remove-project name="SlimRoms/android_system_core" />
+    <remove-project name="SlimRoms/android_system_vold" />
+    <remove-project name="SlimRoms/android_external_wpa_supplicant_8" />
     <remove-project name="SlimRoms/android_build" />
-    <remove-project name="SlimRoms/android_system_netd" />
-    <remove-project name="SlimRoms/android_art" />
-    <remove-project name="platform/external/valgrind"            groups="pdk" />
+    <remove-project name="SlimRoms/android_bionic" />
     
-    <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
-    <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
-    <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
-    <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.3" />
-    <remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
-    <remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
-    
-    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master" />
-    <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master"/>
-    <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" revision="master"/>
-    <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" revision="master"/>
-    <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux"  revision="master"/>
- 
-    <project path="art"                         name="SlimKatXperia/android_art"                         remote="github"     revision="master" />   
-    <project path="external/bluetooth/bluez"    name="SlimKatXperia/android_external_bluetooth_bluez"    remote="github"     revision="master"/>
-    <project path="external/bluetooth/sbc"      name="bluetooth/sbc"                                     remote="kernel"     revision="master" groups="pdk" />
-    <project path="external/bluetooth/glib"     name="aosp-bluez.glib"                                   remote="googlecode" revision="master" groups="pdk" />
-    <project path="bionic"                      name="SlimKatXperia/android_bionic"                      remote="github"     revision="master" />
-    <project path="hardware/libhardware"        name="SlimKatXperia/hardware_libhardware"                remote="github"     revision="master" />
-    <project path="hardware/libhardware_legacy" name="SlimKatXperia/hardware_libhardware_legacy"         remote="github"     revision="master" />
-    <project path="system/core"                 name="SlimKatXperia/android_system_core"                 remote="github"     revision="master" />
-    <project path="frameworks/av"               name="SlimKatXperia/frameworks_av"                       remote="github"     revision="master" />
-    <project path="frameworks/base"             name="SlimKatXperia/frameworks_base"                     remote="github"     revision="master" />
-    <project path="frameworks/native"           name="SlimKatXperia/frameworks_native"                   remote="github"     revision="master" />
-    <project path="bootable/recovery"           name="SlimKatXperia/bootable_recovery"                   remote="github"     revision="master" />
-    <project path="build"                       name="SlimKatXperia/android_build"                       remote="github"     revision="master"  >
+    <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="arm,darwin,pdk-cw-fs" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.4" groups="pdk,darwin" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.5" groups="pdk,darwin" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips,pdk-cw-fs" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,pdk-cw-fs,x86" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,darwin,arm" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" groups="pdk,darwin,arm" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" groups="pdk,darwin,mips" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" groups="pdk,darwin,mips" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="pdk,darwin,x86" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" />
+    <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs" />
+  
+    <project path="bionic"                          name="SlimLPXperia/android_bionic"                      remote="github"     revision="lp5.0" />
+    <project path="build"                           name="SlimLPXperia/android_build"                       remote="github"     revision="lp5.0"  >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project> 
-    <project path="system/netd"                 name="SlimKatXperia/android_system_netd"                 remote="github"     revision="master" />
-    <project path="external/valgrind"           name="SlimKatXperia/android_external_valgrind"           remote="github"     revision="master" />
+    <project path="external/wpa_supplicant_8"       name="SlimLPXperia/android_external_wpa_supplicant_8"   remote="github"     revision="lp5.0" />
+    <project path="hardware/libhardware"            name="SlimLPXperia/hardware_libhardware"                remote="github"     revision="lp5.0" />
+    <project path="system/core"                     name="SlimLPXperia/android_system_core"                 remote="github"     revision="lp5.0" />
+    <project path="system/vold"                     name="SlimLPXperia/android_system_vold"                 remote="github"     revision="lollipop" />
     
-    <project path="device/sony/montblanc-common"  name="SlimKatXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
-    <project path="device/sony/pepper"            name="SlimKatXperia/android_device_sony_pepper"           remote="github"     revision="master" />
-    <project path="device/sony/kumquat"           name="SlimKatXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
-    <project path="device/sony/nypon"             name="SlimKatXperia/android_device_sony_nypon"            remote="github"     revision="master" />
-    <project path="device/sony/lotus"             name="SlimKatXperia/android_device_sony_lotus"            remote="github"     revision="master" />
-    <project path="kernel/sony/u8500"             name="SlimKatXperia/android_kernel_sony_u8500"            remote="github"     revision="master" />
-    <project path="vendor/sony"                   name="SlimKatXperia/android_vendor_sony"                  remote="github"     revision="master" />
-    <project path="hardware/ste-sony"             name="SlimKatXperia/android_hardware_ste-sony"            remote="github"     revision="master" />
-  
-    <!-- arm eabi 4.4.3 and 4.7 toolchain -->
-    <project path="prebuilt/linux-x86/toolchain" name="LegacySlimXperia/arm-eabi-4.4.3" remote="github" revision="master" />
-    <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
-    <!-- CM wpa_supplicant_ti -->
-    <project path="external/wpa_supplicant_8_ti"	name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
-    <!-- CM crda -->
-    <project path="external/crda"                 name="CyanogenMod/android_external_crda"                remote="github" revision="cm-11.0" />
-  
+    <project path="device/sony/montblanc-common"  name="SlimLPXperia/android_device_sony_montblanc-common"            remote="github"     revision="lollipop" />
+    <project path="device/sony/pepper"            name="SlimLPXperia/android_device_sony_pepper"                      remote="github"     revision="lollipop" />
+    <project path="kernel/sony/u8500"             name="AndroidOpenSourceXperia/android_kernel_sony_u8500"            remote="github"     revision="master" />
+    <project path="vendor/sony"                   name="AndroidOpenSourceXperia/android_vendor_sony"                  remote="github"     revision="master" />
+    <project path="hardware/ste-sony"             name="SlimLPXperia/android_hardware_ste-sony"                       remote="github"     revision="lollipop" />
+    <project path="external/bluetooth/bluez"      name="AndroidOpenSourceXperia/android_external_bluetooth_bluez"     remote="github"     revision="5.25" />
+    <project path="external/bluetooth/sbc"        name="bluetooth/sbc"                                                remote="kernel"     revision="master"         groups="pdk" />
+    <project path="external/bluetooth/glib"       name="aosp-bluez.glib"                                              remote="googlecode" revision="master"         groups="pdk" />
+
+    <!-- arm eabi 4.8 toolchains -->
+    <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master"/>
+    
 </manifest>
