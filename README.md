@@ -1,13 +1,13 @@
 android_scripts
 ===============
 
-Helpful scripts for building SlimKat
+Helpful scripts for building SlimLP
 
 QuickStart:
 
-    git clone https://github.com/SlimkatXperia/android_scripts.git slimkat;
-    cd slimkat;
-    repo init -u git://github.com/SlimRoms/platform_manifest.git -b kk4.4;
+    git clone https://github.com/SlimLPXperia/android_scripts.git slimLP;
+    cd slimLP;
+    repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.0;
     ./Update.sh;
     ./CompileROM.sh -u; (Xperia U)
     ./CompileROM.sh -p; (Xperia P)   
