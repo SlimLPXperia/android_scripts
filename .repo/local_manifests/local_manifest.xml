@@ -7,13 +7,15 @@
   <remote name="googlecode"
           fetch="https://code.google.com/p/" />
   
+    <remove-project name="SlimRoms/android_bionic" />
+    <remove-project name="SlimRoms/android_build" />
     <remove-project name="platform/external/bluetooth/bluedroid"/> 
     <remove-project name="SlimRoms/hardware_libhardware" />
+    <remove-project name="SlimRoms/frameworks_av" />
+    <remove-project name="SlimRoms/frameworks_native" />
     <remove-project name="SlimRoms/android_system_core" />
     <remove-project name="SlimRoms/android_system_vold" />
     <remove-project name="SlimRoms/android_external_wpa_supplicant_8" />
-    <remove-project name="SlimRoms/android_build" />
-    <remove-project name="SlimRoms/android_bionic" />
     
     <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
     <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
@@ -35,15 +37,17 @@
     <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" />
     <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs" />
   
-    <project path="bionic"                          name="SlimLPXperia/android_bionic"                      remote="github"     revision="lp5.0" />
-    <project path="build"                           name="SlimLPXperia/android_build"                       remote="github"     revision="lp5.0"  >
+    <project path="bionic"                        name="SlimLPXperia/android_bionic"                      remote="github"     revision="lp5.0" />
+    <project path="build"                         name="SlimLPXperia/android_build"                       remote="github"     revision="lp5.0"  >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project> 
-    <project path="external/wpa_supplicant_8"       name="SlimLPXperia/android_external_wpa_supplicant_8"   remote="github"     revision="lp5.0" />
-    <project path="hardware/libhardware"            name="SlimLPXperia/hardware_libhardware"                remote="github"     revision="lp5.0" />
-    <project path="system/core"                     name="SlimLPXperia/android_system_core"                 remote="github"     revision="lp5.0" />
-    <project path="system/vold"                     name="SlimLPXperia/android_system_vold"                 remote="github"     revision="lollipop" />
-    
+    <project path="frameworks/av"                 name="SlimLPXperia/frameworks_av"                       remote="github"     revision="lp5.0" />
+    <project path="frameworks/native"             name="SlimLPXperia/frameworks_native"                   remote="github"     revision="lp5.0" />
+    <project path="hardware/libhardware"          name="SlimLPXperia/hardware_libhardware"                remote="github"     revision="lp5.0" />
+    <project path="system/core"                   name="SlimLPXperia/android_system_core"                 remote="github"     revision="lp5.0" />
+    <project path="system/vold"                   name="SlimLPXperia/android_system_vold"                 remote="github"     revision="lollipop" />
+    <project path="external/wpa_supplicant_8"     name="SlimLPXperia/android_external_wpa_supplicant_8"   remote="github"     revision="lp5.0" />
+   
     <project path="device/sony/montblanc-common"  name="SlimLPXperia/android_device_sony_montblanc-common"            remote="github"     revision="lollipop" />
     <project path="device/sony/pepper"            name="SlimLPXperia/android_device_sony_pepper"                      remote="github"     revision="lollipop" />
     <project path="kernel/sony/u8500"             name="AndroidOpenSourceXperia/android_kernel_sony_u8500"            remote="github"     revision="master" />
