@@ -9,8 +9,7 @@
   
     <remove-project name="SlimRoms/android_bionic" />
     <remove-project name="SlimRoms/android_build" />
-    <remove-project name="platform/external/bluetooth/bluedroid"/> 
-    <remove-project name="SlimRoms/bootable_recovery" />
+    <remove-project name="platform/external/bluetooth/bluedroid"/>
     <remove-project name="SlimRoms/hardware_libhardware" />
     <remove-project name="SlimRoms/frameworks_av" />
     <remove-project name="SlimRoms/frameworks_native" />
@@ -43,7 +42,6 @@
     <project path="build"                         name="SlimLPXperia/android_build"                       remote="github"     revision="lp5.0"  >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project> 
-    <project path="bootable/recovery"             name="Agontuk/android_bootable_recovery"                remote="github"     revision="lollipop" />
     <project path="frameworks/av"                 name="SlimLPXperia/frameworks_av"                       remote="github"     revision="lp5.0" />
     <project path="frameworks/native"             name="SlimLPXperia/frameworks_native"                   remote="github"     revision="lp5.0" />
     <project path="frameworks/opt/telephony"      name="SlimLPXperia/frameworks_opt_telephony"            remote="github"     revision="lp5.0" />
