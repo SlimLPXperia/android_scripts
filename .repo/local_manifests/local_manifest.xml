@@ -18,6 +18,7 @@
     <remove-project name="SlimRoms/android_system_vold" />
     <remove-project name="SlimRoms/android_external_wpa_supplicant_8" />
     <remove-project name="SlimRoms/packages_inputmethods_LatinIME"/>
+    <remove-project name="SlimRoms/android_external_icu"/>
     
     <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
     <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
@@ -51,6 +52,7 @@
     <project path="system/vold"                   name="SlimLPXperia/android_system_vold"                 remote="github"     revision="lollipop" />
     <project path="external/wpa_supplicant_8"     name="SlimLPXperia/android_external_wpa_supplicant_8"   remote="github"     revision="lp5.0" />
     <project path="packages/inputmethods/LatinIME"  name="SlimLPXperia/packages_inputmethods_LatinIME"    remote="github"     revision="lp5.0"/>
+    <project path="external/icu"                  name="SlimLPXperia/android_external_icu"                remote="github"     revision="lp5.0" />
    
     <project path="device/sony/montblanc-common"  name="SlimLPXperia/android_device_sony_montblanc-common"            remote="github"     revision="lollipop" />
     <project path="device/sony/pepper"            name="SlimLPXperia/android_device_sony_pepper"                      remote="github"     revision="lollipop" />
