@@ -49,18 +49,18 @@
     <project path="frameworks/opt/telephony"      name="SlimLPXperia/frameworks_opt_telephony"            remote="github"     revision="lp5.0" />
     <project path="hardware/libhardware"          name="SlimLPXperia/hardware_libhardware"                remote="github"     revision="lp5.0" />
     <project path="system/core"                   name="SlimLPXperia/android_system_core"                 remote="github"     revision="lp5.0" />
-    <project path="system/vold"                   name="SlimLPXperia/android_system_vold"                 remote="github"     revision="lollipop" />
+    <project path="system/vold"                   name="SlimLPXperia/android_system_vold"                 remote="github"     revision="lp5.0" />
     <project path="external/wpa_supplicant_8"     name="SlimLPXperia/android_external_wpa_supplicant_8"   remote="github"     revision="lp5.0" />
     <project path="packages/inputmethods/LatinIME"  name="SlimLPXperia/packages_inputmethods_LatinIME"    remote="github"     revision="lp5.0"/>
     <project path="external/icu"                  name="SlimLPXperia/android_external_icu"                remote="github"     revision="lp5.0" />
    
-    <project path="device/sony/montblanc-common"  name="SlimLPXperia/android_device_sony_montblanc-common"            remote="github"     revision="lollipop" />
-    <project path="device/sony/pepper"            name="SlimLPXperia/android_device_sony_pepper"                      remote="github"     revision="lollipop" />
+    <project path="device/sony/montblanc-common"  name="SlimLPXperia/android_device_sony_montblanc-common"            remote="github"     revision="lp5.0" />
+    <project path="device/sony/pepper"            name="SlimLPXperia/android_device_sony_pepper"                      remote="github"     revision="lp5.0" />
     <project path="device/sony/kumquat"            name="SlimLPXperia/android_device_sony_kumquat"                    remote="github"     revision="lollipop" />
-    <project path="kernel/sony/u8500"             name="SlimLPXperia/android_kernel_sony_u8500"                       remote="github"     revision="master" />
-    <project path="vendor/sony"                   name="SlimLPXperia/android_vendor_sony"                             remote="github"     revision="master" />
-    <project path="hardware/ste-sony"             name="SlimLPXperia/android_hardware_ste-sony"                       remote="github"     revision="lollipop" />
-    <project path="external/bluetooth/bluez"      name="AndroidOpenSourceXperia/android_external_bluetooth_bluez"     remote="github"     revision="5.25" />
+    <project path="kernel/sony/u8500"             name="SlimLPXperia/android_kernel_sony_u8500"                       remote="github"     revision="lp5.0" />
+    <project path="vendor/sony"                   name="SlimLPXperia/android_vendor_sony"                             remote="github"     revision="lp5.0" />
+    <project path="hardware/ste-sony"             name="SlimLPXperia/android_hardware_ste-sony"                       remote="github"     revision="lp5.0" />
+    <project path="external/bluetooth/bluez"      name="XperiaSTE/android_external_bluetooth_bluez"                   remote="github"     revision="bluez-master" />
     <project path="external/bluetooth/sbc"        name="bluetooth/sbc"                                                remote="kernel"     revision="master"         groups="pdk" />
     <project path="external/bluetooth/glib"       name="aosp-bluez.glib"                                              remote="googlecode" revision="master"         groups="pdk" />
 
