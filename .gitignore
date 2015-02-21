@@ -1,4 +1,4 @@
-#CyanogenMod
+#Slim
 abi/
 bionic/
 cts/
@@ -25,13 +25,18 @@ docs/
 hardware/
 libnativehelper/
 out/
+platform_manifest/
 prebuilt/
 sdk/
 vendor/
 
+Makefile
+
 #repo
 .repo/.directory
 .repo/.repopickle_fetchtimes
+.repo/.repo_fetchtimes.json
+.repo/project-objects/
 .repo/manifest.xml
 .repo/manifests.git/
 .repo/manifests/
