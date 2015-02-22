@@ -11,6 +11,7 @@
     <remove-project name="SlimRoms/android_build" />
     <remove-project name="platform/external/bluetooth/bluedroid"/>
     <remove-project name="SlimRoms/hardware_libhardware" />
+    <remove-project name="SlimRoms/hardware_libhardware_legacy" />
     <remove-project name="SlimRoms/frameworks_av" />
     <remove-project name="SlimRoms/frameworks_native" />
     <remove-project name="SlimRoms/frameworks_opt_telephony" />
@@ -50,6 +51,7 @@
     <project path="frameworks/native"             name="SlimLPXperia/frameworks_native"                   remote="github"     revision="lp5.0" />
     <project path="frameworks/opt/telephony"      name="SlimLPXperia/frameworks_opt_telephony"            remote="github"     revision="lp5.0" />
     <project path="hardware/libhardware"          name="SlimLPXperia/hardware_libhardware"                remote="github"     revision="lp5.0" />
+    <project path="hardware/libhardware_legacy"   name="SlimLPXperia/hardware_libhardware_legacy"         remote="github"     revision="lp5.0" />
     <project path="system/core"                   name="SlimLPXperia/android_system_core"                 remote="github"     revision="lp5.0" />
     <project path="system/vold"                   name="SlimLPXperia/android_system_vold"                 remote="github"     revision="lp5.0" />
     <project path="external/wpa_supplicant_8"     name="SlimLPXperia/android_external_wpa_supplicant_8"   remote="github"     revision="lp5.0" />
