@@ -7,7 +7,7 @@ QuickStart:
 
     git clone https://github.com/SlimLPXperia/android_scripts.git slimLP;
     cd slimLP;
-    repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.0;
+    repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.1;
     ./Update.sh;
     ./CompileROM.sh -u; (Xperia U)
     ./CompileROM.sh -p; (Xperia P)   
