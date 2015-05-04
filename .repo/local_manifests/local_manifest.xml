@@ -52,7 +52,7 @@
     <project path="system/core"                   name="SlimLPXperia/android_system_core"                 remote="github"     revision="lp5.1" />
     <project path="external/wpa_supplicant_8"     name="SlimLPXperia/android_external_wpa_supplicant_8"   remote="github"     revision="lp5.1" />
     <project path="external/icu"                  name="SlimLPXperia/android_external_icu"                remote="github"     revision="lp5.1" />
-    <project path="external/libselinux"           name="SlimLPXperia/android_external_libselinux"         remote="github"     revision="cm-12.1" />
+    <project path="external/libselinux"           name="SlimLPXperia/android_external_libselinux"         remote="github"     revision="lp5.1" />
    
     <project path="device/sony/montblanc-common"  name="SlimLPXperia/android_device_sony_montblanc-common"            remote="github"     revision="lp5.1" />
     <project path="device/sony/pepper"            name="SlimLPXperia/android_device_sony_pepper"                      remote="github"     revision="lp5.1" />
